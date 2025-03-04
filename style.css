@@ -182,7 +182,6 @@ input[type="text"] {
   border: 1px solid white;
   border-right: none;
   border-bottom: none;
-
 }
 .nest-sec-1 {
   border-radius: 15px;
@@ -965,7 +964,7 @@ footer {
     max-width: 350px;
   }
   .nest-our-products {
-    width: 375px;
+    width: 355px;
     height: 200px;
     margin-top: 20px;
   }
@@ -973,7 +972,7 @@ footer {
     font-size: 19px;
   }
   .nest-our-products h1 {
-    font-size: 30px;
+    font-size: 27px;
   }
   footer {
     max-width: 1920px;
@@ -1012,12 +1011,15 @@ footer {
     height: 60px;
     width: 85px;
   }
+  .img-container {
+    width: 350px;
+  }
   .head-p-container {
-    width: 340px;
+    width: 315px;
     /* height: 400px; */
   }
   .btn-learn-more {
-    margin-top: 35px;
+    margin-top: 115px;
   }
   .nested-nav ul {
     display: flex;
@@ -1038,7 +1040,7 @@ footer {
     font-size: 15px;
   }
   .product-card {
-    width: 365px;
+    width: 340px;
     height: 510px;
   }
   .bottom-card-img {
@@ -1049,10 +1051,13 @@ footer {
   .bottom-left-sec h5 {
     font-family: "Roboto";
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 25.78px;
     letter-spacing: 0%;
     margin-left: 0%;
     line-height: 0%;
+  }
+  .main-about-container {
+    margin-top: 255px;
   }
 }
