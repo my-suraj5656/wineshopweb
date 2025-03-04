@@ -149,6 +149,14 @@ input[type="text"] {
   color: rgba(238, 61, 27, 1);
   border-left: none;
   position: absolute;
+  transition: all 0.2s;
+}
+.input-container button:hover {
+  font-size: 22px;
+  background: rgb(255, 116, 88, 0.8);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 .btn-next {
   width: 264px;
@@ -165,6 +173,16 @@ input[type="text"] {
   font-size: 20px;
   line-height: 23.44px;
   letter-spacing: 4px;
+  transition: all 0.3s;
+}
+.btn-next:hover {
+  font-size: 23px;
+  background: rgb(255, 89, 60);
+  /* background: rgb(253, 75, 44, 0.8); */
+  border: 1px solid white;
+  border-right: none;
+  border-bottom: none;
+
 }
 .nest-sec-1 {
   border-radius: 15px;
@@ -232,6 +250,17 @@ input[type="text"] {
   letter-spacing: 3px;
   color: rgba(226, 84, 71, 1);
   margin-top: 22px;
+  transition: all 0.3s;
+}
+.btn-learn-more:hover {
+  width: 200px;
+  height: 55px;
+  font-size: 17px;
+  background: rgba(226, 84, 71, 1);
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 .head-p-container {
   width: 615px;
@@ -970,7 +999,7 @@ footer {
   }
   .nest-input-container {
     margin-right: 120px;
-}
+  }
   .input-container button {
     width: 120px;
   }
