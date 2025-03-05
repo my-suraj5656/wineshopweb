@@ -749,11 +749,6 @@ footer {
 }
 
 @media only screen and (max-width: 1000px) {
-  .nested-nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
 }
 
 @media only screen and (max-width: 1685px) {
@@ -779,7 +774,12 @@ footer {
     background: rgba(15, 26, 46, 1);
   }
 }
-@media only screen and (max-width: 830px) {
+@media only screen and (max-width: 850px) {
+  .nested-nav-2 {
+    gap: 10px;
+    margin-left: 20px;
+  }
+
   .about-us-sec {
     max-width: 1920px;
     width: 100%;
@@ -806,6 +806,22 @@ footer {
   /* .our-products-sec {
     margin-top: 500px;
   }  */
+}
+@media only screen and (max-width: 800px) {
+  .nested-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .nested-nav-2 {
+    gap: 25px;
+    margin-left: 20px;
+  }
+  .nav-container {
+    position: absolute;
+    left: 100px;
+    margin-top: 0px;
+  }
 }
 
 @media only screen and (max-width: 750px) {
@@ -839,7 +855,20 @@ footer {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 620px) {
+  .nested-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .nested-nav-2 {
+    gap: 10px;
+  }
+  .nav-container {
+    position: absolute;
+    left: 0px;
+    margin-top: 0px;
+  }
   .product-card {
     width: 370px;
     height: 515px;
@@ -1058,6 +1087,6 @@ footer {
     line-height: 0%;
   }
   .main-about-container {
-    margin-top: 255px;
+    margin-top: 290px;
   }
 }
